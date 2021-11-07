@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+    }
 body{
     background-image: url("autoservice.jpg");
     background-repeat: no-repeat;
@@ -278,4 +281,29 @@ button{
 button:hover{
     background-color: red;
     color: white;
+}
+@media (max-width:600px){
+    .leftInfo{
+        width: 100%;
+        border-radius: 0px;
+        margin-bottom: 15px;
+    }
+    .Bigimg{
+        width: 90%;
+    }
+    .address{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .human{
+        width: 90%;
+        box-sizing: border-box;
+    }
+    input{
+        width: 90%;
+    }
+    textarea{
+        width: 90%;
+    }
+
 }
